@@ -41,6 +41,8 @@ import fashion_show_9 from '../../assets/fashion_show_9.png';
 import fashion_show_10 from '../../assets/fashion_show_10.png';
 import fashion_show_11 from '../../assets/fashion_show_11.png';
 import fashion_show_12 from '../../assets/fashion_show_12.png';
+import fashion_show_14 from '../../assets/fashion_show_14.png';
+
 
 
 
@@ -107,7 +109,7 @@ export const Shows = () => {
 
                         {/* Right Section: Photos */}
                         <div className="w-full flex items-center justify-between gap-x-4 px-10 overflow-hidden relative">
-                            <img src= {fashion_show_6} alt="fashion_show_6" />
+                            <img src= {fashion_show_7} alt="fashion_show_7" className="w-750px"/>
                         </div>
                     </div>
 
@@ -138,8 +140,8 @@ export const Shows = () => {
                             {/* left: 2x2 image grid */}
                             <div className="grid grid-cols-2  gap-0.5 max-w-[800px] px-10">
                                 <img 
-                                    src={fashion_show_1} 
-                                    alt="sketch9" 
+                                    src={fashion_show_14} 
+                                    alt="fashion_show_14" 
                                     className="w-full h-[400px] object-cover"
                                 />
                                
@@ -159,7 +161,19 @@ export const Shows = () => {
                                     Asia Model Festival is an annual event attended by 275 Asian countries 
                                     (South Korea, China, Japan, Thailand, Vietnam, India, Singapore, Cambodia, etc.).
                                     Not only do models compete at the festival, but designers, top models, and, of 
-                                    course, stars from the participating countries present their brands.
+                                    course, stars from the participating countries present their brands. 
+                                    Every year in Seoul, the Korea Modeling Association organizes a grand show, Asia 
+                                    Model Festival, which attracts with colorful performances and famous guests: top 
+                                    models, actors and leading figures in the world of fashion and beauty industry. In 
+                                    turn, Face of Central Asia is part of this grand show.
+                                    Face of Central Asia is the semi-final event of Asia Model Festival and also an event 
+                                    during which cultural exchange takes place between the participating countries: 
+                                    Kazakhstan, Kyrgyzstan, Uzbekistan and Tajikistan. The Central Asian region is 
+                                    present at this event for the fifth time and gives the opportunity to show our 
+                                    culture, beautiful and talented people to the world through the fashion and beauty industry.
+                                    Miss Kyrgyzstan / Universe proudly wore a custom dress by Gulchehra Rahimova, 
+                                    showcasing her unique design on an international stage.
+                                    
                                  
                                 </p>
                             </div>

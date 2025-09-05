@@ -166,14 +166,6 @@ export const GR = () => {
                     className="w-[300px] h-[340px]"
                 />
               </div>
-              
-              <div className="flex flex-col items-center text-left">
-                <img 
-                    src={gr_students_7} 
-                    alt="gr_students_7"
-                    className="w-[300px] h-[340px]"
-                />
-              </div>
 
               <div className="flex flex-col items-center text-left">
                 <img 
